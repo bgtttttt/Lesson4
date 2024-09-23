@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'MyFont'; 
+    src: url('font.ttf'); 
+}
+body {
+  font-family: 'MyFont', sans-serif;
+}
+
+footer {
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #909090;
+    color: #000000;
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a0a0a0;
+}
+
+nav {
+    background-color: #909090;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+nav li:first-child a {
+    background-color: #606060;
+}
+nav li:last-child a {
+    background-color: #B0B0B0;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+nav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.art {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-color: #C0C0C0;
+    border-radius: 10px;
+    padding: 10px;
+}
+#act {
+    margin-left: 15px;
+    margin-right: 20px;
+    background-color: #CCCCCC;
+    border-radius: 10px;
+    padding: 10px;
+}
